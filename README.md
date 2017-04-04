@@ -13,7 +13,7 @@ Creating projects as well as mentorship with learning tailored to you will not o
 * How to code like a `BOSS`
 
 ## Links
-* Screensharing [join.me](https://bit.ly/latscreenshare)
+* Screensharing - [join.me](https://bit.ly/latscreenshare)
    
 ## Author
 
