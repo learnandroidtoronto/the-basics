@@ -1,66 +1,55 @@
-# Product Name
-> Short blurb about what your product does.
+# Signup Form
+> We will create a signup form in Android Studio. In the process you will learn a lot about Android development basics, design patterns, and best practices. 
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+## Instructions
+Submit your Android Studio project after each lesson.
+* Create a `pull request` on the `branch` in this `repository` named after you.
+* `Commit` your project at the end of each lesson.
 
-One to two paragraph statement about your product and what it does.
+## Concepts covered
 
-![](header.png)
+* Plain Old Java Objects (POJO)
+    * Accessors modifiers: `public` & `private`
+    * Member variables:
+    For `Human class`
+    ```
+    public class Human{
+      private int mAge;
+      private String mName;
+      ...
+    }
+    ```
+    * Constructor methods:
+    For `Human.java`
+    ```
+      public Human(String name, int age){
+         mName = name;
+         mAge = age;
+      }
+    ```
+    * Accessor methods:
+    ```
+      public String getName(){
+         return mName;
+      }
+    ```
+    * Mutator methods:
+    ```
+      public void setName(String name){
+         mName = name;
+      }
+    ```
+    
+* XML
+    * Syntax
+    * Using `ConstraintLayout`
+    * Creating an `element` for the `layout`
+    * Adding the `android:id` attribute
+* TextView & EditText
+    * Hooking up `<element>` defined in `XML`
+    * Using element in `.java`
 
-## Installation
+## Author
 
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
-
-## Usage example
-
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
-```
-
-## Release History
-
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
-
-## Meta
-
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
-
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
-
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
+Matthew Lal – [@instagram](https://instagr.am/that.android.developer) – [@facebook](https://fb.me/that.android.developer)
+> Learn Android Toronto
