@@ -3,7 +3,7 @@
 
 ## Instructions
 Submit your Android Studio project after each lesson.
-* Create a `pull request` on the `branch` in this `repository` named after you.
+* `Fork` this `repo`, then create a `pull request` on the `branch` named after you.
 * `Commit` your project at the end of each lesson.
 
 ## Concepts covered
