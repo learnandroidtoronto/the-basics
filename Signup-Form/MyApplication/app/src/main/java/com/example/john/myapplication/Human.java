@@ -23,4 +23,9 @@ public class Human {
 
         this.name = name;
     }
+
+    public Human(int mIncomeJohn, String name){
+        this.name = name;
+        this.mIncomeJohn = mIncomeJohn;
+    }
 }

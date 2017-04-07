@@ -16,7 +16,6 @@
         android:layout_marginRight="15dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:text="porc"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toRightOf="@+id/imageView"
         app:layout_constraintRight_toRightOf="parent"
@@ -24,13 +23,12 @@
 
     <ImageView
         android:id="@+id/firstImg"
-        android:layout_width="347dp"
-        android:layout_height="321dp"
-        android:layout_marginLeft="408dp"
+        android:layout_width="209dp"
+        android:layout_height="198dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
-        android:background="@drawable/wolf"
         app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_editor_absoluteY="73dp"
+        tools:layout_editor_absoluteY="196dp"
         />
 
     <TextView
@@ -42,10 +40,24 @@
         android:layout_marginRight="13dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="no"
         app:layout_constraintLeft_toRightOf="@+id/imageView"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/setUpText_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <EditText
+        android:id="@+id/email_EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteY="67dp"
+        tools:layout_editor_absoluteX="0dp" />
 
 
 </android.support.constraint.ConstraintLayout>
