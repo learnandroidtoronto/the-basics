@@ -2,9 +2,10 @@
 > We will create a signup form in Android Studio. In the process you will learn a lot about Android development basics, design patterns, and best practices. 
 
 ## Instructions
-Submit your Android Studio project after each lesson.
-* `Fork` this `repo`, then create a `pull request` on the `branch` named after you.
-* `Commit` your project at the end of each lesson.
+Commit and sync your Android Studio project to your branch after each lesson.
+* Once added to your section's team `clone` `the-basics` `repo` to a `directory` on your computer.
+* Create your Android project inside the `the-basics/Signup-form` directory you've just `cloned`.
+* `Commit` your project to the `branch` with your name at the end of each lesson.
 
 ## Concepts covered
 
