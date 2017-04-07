@@ -2,6 +2,8 @@
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -10,7 +12,7 @@ import android.widget.TextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstance = State);
         setContentView(R.layout.activity_main);
 
 
@@ -21,9 +23,14 @@ import android.widget.TextView;
 
         ImageView _imageViewImageView = (ImageView) findViewById(R.id._imageView);
 
-        Human Daniel = new Human("Daniel");
-        titleTextView.setText(Human.getName());
+        Button setUpTextButtonbutton = (Button) findViewById(R.id.setUpTextButton);
 
+        EditText userInput_EditTextEditText = (EditText) findViewById(R.id.userInput_EditText);
+
+        Human Daniel = new Human("Daniel");
+        titleTextView.setText(Daniel.getName());
+
+        _imageViewImageView.setImageResource(R.drawable.logo_bar_brothers);
 
     }
 
