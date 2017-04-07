@@ -6,6 +6,7 @@ Commit and sync your Android Studio project to your branch after each lesson.
 * Once added to your section's team `clone` `the-basics` `repo` to a `directory` on your computer.
 * Create your Android project inside the `the-basics/Signup-form` directory you've just `cloned`.
 * `Commit` your project to your `branch` with the <b>date as the summary</b> and an <b>overview of the tasks you did as the description</b>, at the end of each lesson.
+* To review your code in this `repo` you must select the `branch` named afer you.
 
 ## Concepts covered
 
@@ -48,7 +49,11 @@ Commit and sync your Android Studio project to your branch after each lesson.
     * Adding the `android:id` attribute
 * TextView & EditText
     * Hooking up `<element>` defined in `XML`
+    * Using element in `.java`    
+* Button
+    * Hooking up `<element>` defined in `XML`
     * Using element in `.java`
+    * Simple listeners with `android:onClick` attribute
 
 ## Author
 
