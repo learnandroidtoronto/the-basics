@@ -10,6 +10,10 @@ Commit and sync your Android Studio project to your branch after each lesson.
 
 ## Concepts covered
 
+* Variable scope
+    * Class-level (member variable)
+    * Method-level (local variable)
+
 * Plain Old Java Objects (POJO)
     * Accessors modifiers: `public` & `private`
     * Member variables:
